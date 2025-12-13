@@ -1,0 +1,64 @@
+{
+  "folders": [
+    {
+      "path": "../aws-bootstrap"
+    },
+    {
+      "path": "../aws-infrastructure"
+    },
+    {
+      "path": "../aws-tags"
+    },
+    {
+      "path": "../github"
+    },
+    {
+      "path": "../github-action-reusables"
+    },
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.insertSpaces": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+    "editor.tabSize": 2,
+    "files.associations": {
+      "*.pkr.hcl": "terraform"
+    },
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "git.confirmSync": false,
+    "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+    "json.format.enable": true,
+    "json.validate.enable": true,
+    "powershell.codeFormatting.useCorrectCasing": true,
+    "powershell.integratedConsole.showOnStartup": false,
+    "scm.repositories.selectionMode": "single",
+    "terminal.integrated.scrollback": 9999,
+    "terraform.languageServer.enable": true,
+    "terraform.validation.enableEnhancedValidation": true,
+    "workbench.startupEditor": "none",
+    "[hcl]": {
+      "editor.defaultFormatter": "hashicorp.hcl"
+    },
+    "[powershell]": {
+      "editor.tabSize": 4
+    },
+    "[terraform]": {
+      "editor.defaultFormatter": "hashicorp.terraform"
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "github.copilot-chat",
+      "hashicorp.terraform",
+      "hashicorp.hcl",
+      "ms-vscode.powershell"
+    ]
+  }
+}
