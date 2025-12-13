@@ -1,1 +1,1 @@
-# aws-vscode-workspace
+# vscode-workspace
