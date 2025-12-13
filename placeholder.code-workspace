@@ -10,10 +10,10 @@
       "path": "../aws-tags"
     },
     {
-      "path": "../github"
+      "path": "../github-action-reusables"
     },
     {
-      "path": "../github-action-reusables"
+      "path": "../github-repos"
     },
     {
       "path": "."
