@@ -20,6 +20,7 @@
     }
   ],
   "settings": {
+    "extensions.ignoreRecommendations": true,
     "editor.detectIndentation": false,
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "file",
@@ -27,8 +28,14 @@
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": true,
     "editor.tabSize": 2,
-    "files.associations": {
-      "*.pkr.hcl": "terraform"
+    "emeraldwalk.runonsave": {
+      "commands": [
+        {
+          "cmd": "terragrunt hcl format --file=${file}",
+          "isAsync": true,
+          "match": "\\.hcl$"
+        }
+      ]
     },
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
@@ -43,9 +50,6 @@
     "terraform.languageServer.enable": true,
     "terraform.validation.enableEnhancedValidation": true,
     "workbench.startupEditor": "none",
-    "[hcl]": {
-      "editor.defaultFormatter": "hashicorp.hcl"
-    },
     "[powershell]": {
       "editor.tabSize": 4
     },
@@ -55,6 +59,7 @@
   },
   "extensions": {
     "recommendations": [
+      "emeraldwalk.runonsave",
       "github.copilot-chat",
       "hashicorp.terraform",
       "hashicorp.hcl",
