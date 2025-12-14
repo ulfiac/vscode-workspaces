@@ -16,6 +16,9 @@
       "path": "../github-repos"
     },
     {
+      "path": "../infra"
+    },
+    {
       "path": "."
     }
   ],
