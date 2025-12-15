@@ -23,7 +23,6 @@
     }
   ],
   "settings": {
-    "extensions.ignoreRecommendations": true,
     "editor.detectIndentation": false,
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "file",
@@ -40,9 +39,11 @@
         }
       ]
     },
-    "files.trimTrailingWhitespace": true,
+    "extensions.ignoreRecommendations": true,
     "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
     "git.confirmSync": false,
+    "git.replaceTagsWhenPull": true,
     "github.copilot.chat.codeGeneration.useInstructionFiles": true,
     "json.format.enable": true,
     "json.validate.enable": true,
