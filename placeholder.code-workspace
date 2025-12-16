@@ -49,6 +49,7 @@
     "json.validate.enable": true,
     "powershell.codeFormatting.useCorrectCasing": true,
     "powershell.integratedConsole.showOnStartup": false,
+    "scm.alwaysShowRepositories": true,
     "scm.repositories.selectionMode": "single",
     "terminal.integrated.scrollback": 9999,
     "terraform.languageServer.enable": true,
