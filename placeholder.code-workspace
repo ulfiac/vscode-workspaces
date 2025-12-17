@@ -27,6 +27,7 @@
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "file",
     "editor.insertSpaces": true,
+    "editor.minimap.enabled": false,
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": true,
     "editor.tabSize": 2,
@@ -40,6 +41,7 @@
       ]
     },
     "extensions.ignoreRecommendations": true,
+    "files.eol": "\n",
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "git.confirmSync": false,
@@ -63,8 +65,8 @@
     "recommendations": [
       "emeraldwalk.runonsave",
       "github.copilot-chat",
-      "hashicorp.terraform",
       "hashicorp.hcl",
+      "hashicorp.terraform",
       "ms-vscode.powershell"
     ]
   }
