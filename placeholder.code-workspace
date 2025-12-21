@@ -7,9 +7,6 @@
       "path": "../aws-infrastructure"
     },
     {
-      "path": "../aws-tags"
-    },
-    {
       "path": "../github-action-reusables"
     },
     {
