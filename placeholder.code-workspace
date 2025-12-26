@@ -13,9 +13,6 @@
       "path": "../github-repos"
     },
     {
-      "path": "../terraform-infrastructure-modules"
-    },
-    {
       "path": "."
     }
   ],
