@@ -4,10 +4,10 @@
       "path": "../aws-bootstrap"
     },
     {
-      "path": "../aws-infrastructure"
+      "path": "../github-action-reusables"
     },
     {
-      "path": "../github-action-reusables"
+      "path": "../infra"
     },
     {
       "path": "."
