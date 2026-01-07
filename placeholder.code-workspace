@@ -10,9 +10,6 @@
       "path": "../github-action-reusables"
     },
     {
-      "path": "../github-repos"
-    },
-    {
       "path": "."
     }
   ],
