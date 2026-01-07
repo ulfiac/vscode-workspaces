@@ -4,7 +4,7 @@
       "path": "../aws-bootstrap"
     },
     {
-      "path": "../github-action-reusables"
+      "path": "../common-reusables"
     },
     {
       "path": "../infra"
