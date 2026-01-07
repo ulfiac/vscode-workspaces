@@ -11,6 +11,9 @@
     },
     {
       "path": "."
+    },
+    {
+      "path": "../../dlew5986"
     }
   ],
   "settings": {
@@ -44,6 +47,7 @@
     "powershell.integratedConsole.showOnStartup": false,
     "scm.alwaysShowRepositories": true,
     "scm.repositories.selectionMode": "single",
+    "scm.repositories.visible": 20,
     "terminal.integrated.scrollback": 9999,
     "terraform.languageServer.enable": true,
     "terraform.validation.enableEnhancedValidation": true,
