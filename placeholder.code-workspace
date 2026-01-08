@@ -2,9 +2,6 @@
   "folders": [
     {
       "path": ".."
-    },
-    {
-      "path": "../../dlew5986"
     }
   ],
   "settings": {
@@ -34,11 +31,11 @@
     "github.copilot.chat.codeGeneration.useInstructionFiles": true,
     "json.format.enable": true,
     "json.validate.enable": true,
-    "powershell.codeFormatting.useCorrectCasing": true,
-    "powershell.integratedConsole.showOnStartup": false,
+    //"powershell.codeFormatting.useCorrectCasing": true,
+    //"powershell.integratedConsole.showOnStartup": false,
     "scm.alwaysShowRepositories": true,
     "scm.repositories.selectionMode": "single",
-    "scm.repositories.visible": 20,
+    //"scm.repositories.visible": 20,
     "terminal.integrated.scrollback": 9999,
     "terraform.languageServer.enable": true,
     "terraform.validation.enableEnhancedValidation": true,
