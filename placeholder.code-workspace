@@ -29,20 +29,20 @@
     "git.confirmSync": false,
     "git.replaceTagsWhenPull": true,
     "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+    "github.copilot.nextEditSuggestions.enabled": true,
     "json.format.enable": true,
     "json.validate.enable": true,
-    //"powershell.codeFormatting.useCorrectCasing": true,
-    //"powershell.integratedConsole.showOnStartup": false,
     "scm.alwaysShowRepositories": true,
     "scm.repositories.selectionMode": "single",
     //"scm.repositories.visible": 20,
+    //"terminal.integrated.cwd": "${fileDirname}",
     "terminal.integrated.scrollback": 9999,
+    "terminal.integrated.suggest.enabled": true,
+    "terminal.integrated.suggest.quickSuggestions": true,
     "terraform.languageServer.enable": true,
     "terraform.validation.enableEnhancedValidation": true,
     "workbench.startupEditor": "none",
-    "[powershell]": {
-      "editor.tabSize": 4
-    },
+    "workbench.tree.indent": 20,
   },
   "extensions": {
     "recommendations": [
